@@ -1,4 +1,4 @@
-package com.ichangan.plugins.reset-webview;
+package com.ichangan.plugins.resetwebview;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;

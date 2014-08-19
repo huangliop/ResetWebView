@@ -13,6 +13,6 @@
                 <param name="android-package" value="com.ichangan.plugins.reset-webview.ResetWebview"/>
             </feature>
         </config-file>
-        <source-file src="src/android/ResetWebview.java" target-dir="src/com/ichangan/plugins/reset-webview"/>
+        <source-file src="src/android/ResetWebview.java" target-dir="src/com/ichangan/plugins/resetwebview"/>
     </platform>
 </plugin>
