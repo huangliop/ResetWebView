@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="com.ichangan.plugins.reset-webview" version="0.0.1" 
+        xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>ResetWebview</name>
+    <description>Clear XWalk web view cache</description>
+    <js-module name="ResetWebview" src="www/ResetWebview.js">
+        <clobbers target="cordova.plugins.ResetWebview"/>
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="ResetWebview">
+                <param name="android-package" value="com.ichangan.plugins.reset-webview.ResetWebview"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/ResetWebview.java" target-dir="src/com/ichangan/plugins/reset-webview"/>
+    </platform>
+</plugin>
