@@ -5,7 +5,7 @@
     <name>ResetWebview</name>
     <description>Clear XWalk web view cache</description>
     <js-module name="ResetWebview" src="www/ResetWebview.js">
-        <clobbers target="cordova.plugins.ResetWebview"/>
+        <clobbers target="navigator.ResetWebview"/>
     </js-module>
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
