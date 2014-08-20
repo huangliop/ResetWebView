@@ -1,4 +1,4 @@
-cordova.define("com.ichangan.plugins.reset-webview.ResetWebview", function(require, exports, module) {
+
     var exec = require('cordova/exec');
 
         module.exports = {
@@ -7,5 +7,3 @@ cordova.define("com.ichangan.plugins.reset-webview.ResetWebview", function(requi
             exec(success, fail, 'ResetWebview', 'reset', []);
         }
     };
-       
-});
