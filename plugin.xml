@@ -10,7 +10,7 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="ResetWebview">
-                <param name="android-package" value="com.ichangan.plugins.reset-webview.ResetWebview"/>
+                <param name="android-package" value="com.ichangan.plugins.resetwebview.ResetWebview"/>
             </feature>
         </config-file>
         <source-file src="src/android/ResetWebview.java" target-dir="src/com/ichangan/plugins/resetwebview"/>
