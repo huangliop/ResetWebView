@@ -21,6 +21,7 @@ public class ResetWebview extends CordovaPlugin {
 				public void run() {
 					// TODO Auto-generated method stub
 					webView.clearCache(true);
+					System.exit(0);
 				}
 			}) ;
             return true;
